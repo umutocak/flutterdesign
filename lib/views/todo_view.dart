@@ -43,19 +43,13 @@ class _ToDoWiewState extends State<ToDoWiew> {
             child: Column(
               crossAxisAlignment: CrossAxisAlignment.start,
               children: [
-                Container(
-                    width: 80.0,
-                    height: 80.0,
-                    margin: const EdgeInsets.only(
-                      left: 20,
-                      top: 24.0,
-                    ),
-                    clipBehavior: Clip.antiAlias,
-                    decoration: BoxDecoration(
-                      color: Colors.grey.shade800,
-                      shape: BoxShape.circle,
-                    ),
-                    child: Image.network('https://cdn.pixabay.com/photo/2016/11/29/06/46/adult-1867889_1280.jpg')),
+                 const Padding(
+                   padding: EdgeInsets.only(left: 15),
+                   child: CircleAvatar(
+                    radius: 40,
+                    backgroundImage: NetworkImage("https://cdn.pixabay.com/photo/2015/01/08/18/30/entrepreneur-593371_1280.jpg"),
+                ),
+                 ),
                 const SizedBox(
                   height: 10,
                 ),
