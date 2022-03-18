@@ -1,5 +1,8 @@
+// ignore_for_file: unused_import
+
 import 'package:flutter/material.dart';
 import 'package:flutterdesign/views/calendar_view.dart';
+import 'package:flutterdesign/views/drinkStore_view.dart';
 import 'package:flutterdesign/views/sport_view.dart';
 import 'package:flutterdesign/views/videoCall_view.dart';
 // import 'package:flutterdesign/views/cargo_view.dart';
@@ -21,7 +24,7 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
         primarySwatch: Colors.blue,
       ),
-      home:  const VideoCallView(),
+      home:  const DrinkStoreView(),
     );
   }
 }
