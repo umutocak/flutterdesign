@@ -13,11 +13,12 @@ class _NotFoundViewState extends State<NotFoundView> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
+      backgroundColor: const Color(0xff1F1E25),
       appBar: AppBar(
         backgroundColor: Colors.transparent,
         shadowColor: Colors.transparent,
         centerTitle: true,
-        title: const Text("404", style: TextStyle(color: Colors.black, fontWeight: FontWeight.bold),),
+        title: const Text("404", style: TextStyle(fontWeight: FontWeight.bold),),
       ),
       body: Column(
         mainAxisAlignment: MainAxisAlignment.center,
@@ -32,13 +33,13 @@ class _NotFoundViewState extends State<NotFoundView> {
           SizedBox(
               width: MediaQuery.of(context).size.width - 50,
               child: const Text(
-                  "Aman dikkat ! Uzay boşluğunda bulunmayan bir datayı aradın.")),
+                  "Aman dikkat ! Uzay boşluğunda bulunmayan bir datayı aradın.", style: TextStyle(color: Colors.white),)),
           const SizedBox(height: 20,),
           SizedBox(
             width: MediaQuery.of(context).size.width - 50,
             child: OutlinedButton(
               onPressed: () {},
-              child: const Text("Yeniden Ara"),
+              child: const Text("Yeniden Ara", style: TextStyle(fontSize: 18),),
               style: OutlinedButton.styleFrom(
                 primary: const Color(0xff7FB5FF),
               ),
