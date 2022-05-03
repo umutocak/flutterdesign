@@ -21,8 +21,7 @@ class _CalendarViewState extends State<CalendarViews> {
         backgroundColor: Colors.transparent,
         shadowColor: Colors.transparent,
       ),
-      body: SingleChildScrollView(
-        child: SfCalendar(
+      body: SfCalendar(
                 view: CalendarView.schedule,
                 showDatePickerButton: true,
                 showCurrentTimeIndicator: true,
@@ -61,7 +60,6 @@ class _CalendarViewState extends State<CalendarViews> {
                         monthTextStyle: TextStyle(
                             color: Colors.black, fontWeight: FontWeight.bold))),
               ),
-      ),
     );
   }
 

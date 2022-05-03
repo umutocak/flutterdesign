@@ -1,4 +1,4 @@
-// ignore_for_file: file_names
+// ignore_for_file: file_names, unused_import
 
 import 'package:flutter/material.dart';
 import 'package:flutterdesign/animation/fade_animation.dart';
