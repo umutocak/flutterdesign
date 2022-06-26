@@ -31,7 +31,6 @@ dependencies:
     sdk: flutter
   lottie: ^1.2.1
   flutter_advanced_drawer:
-  syncfusion_flutter_calendar:
   simple_animations: ^4.0.1
   iconsax:
   flutter_svg: ^1.0.3
