@@ -44,7 +44,7 @@ class _NotificationWidgetState extends State<NotificationWidget> {
                   backgroundImage: NetworkImage(
                       'https://instagram.fsaw2-3.fna.fbcdn.net/v/t51.2885-19/64818933_323019198626840_280036149781594112_n.jpg?stp=dst-jpg_s320x320&_nc_ht=instagram.fsaw2-3.fna.fbcdn.net&_nc_cat=108&_nc_ohc=E82L8pcs2qgAX9eb6Qf&edm=AOQ1c0wBAAAA&ccb=7-5&oh=00_AT_RyqycxxO1uFLdEd9vbmZgTBobL-Ct0UubAzHIRRswoQ&oe=62BF9E57&_nc_sid=8fd12b'),
                 ),
-                title: Text('Yazilimoji ve 290 kişi Reels videonu beğendi'),
+                title: Text('Yazilimoji ve 290 kişi Reels videonu beğendi.'),
               ),
               const SizedBox(
                 height: 10,
