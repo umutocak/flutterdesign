@@ -127,7 +127,7 @@ class _CargoWidgetState extends State<CargoWidget> {
   }
 
   Widget dateButton(String text, int index) {
-    return OutlineButton(
+    return OutlinedButton(
       onPressed: () {
         setState(() {
           dateValue = index;
@@ -139,14 +139,11 @@ class _CargoWidgetState extends State<CargoWidget> {
           color: (dateValue == index) ? Colors.black : Colors.grey,
         ),
       ),
-      shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(10)),
-      borderSide:
-          BorderSide(color: (dateValue == index) ? Colors.black : Colors.grey),
     );
   }
 
   Widget loaderButton(String text, int index) {
-    return OutlineButton(
+    return OutlinedButton(
       onPressed: () {
         setState(() {
           loaderValue = index;
@@ -158,9 +155,6 @@ class _CargoWidgetState extends State<CargoWidget> {
           color: (loaderValue == index) ? Colors.black : Colors.grey,
         ),
       ),
-      shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(10)),
-      borderSide:
-          BorderSide(color: (loaderValue == index) ? Colors.black : Colors.grey,),
     );
   }
 }

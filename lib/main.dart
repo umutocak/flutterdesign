@@ -2,10 +2,10 @@
 
 import 'package:flutter/material.dart';
 import 'package:flutterdesign/views/404_view.dart';
-import 'package:flutterdesign/views/calendar_view.dart';
 import 'package:flutterdesign/views/cargo_view.dart';
 import 'package:flutterdesign/views/drinkStore_view.dart';
 import 'package:flutterdesign/views/mailBox_view.dart';
+import 'package:flutterdesign/views/notification_view.dart';
 import 'package:flutterdesign/views/social_view.dart';
 import 'package:flutterdesign/views/sport_view.dart';
 import 'package:flutterdesign/views/todo_view.dart';
@@ -30,7 +30,7 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
         primarySwatch: Colors.blue,
       ),
-      home:  const MailBoxView(),
+      home:  const NotificationView(),
     );
   }
 }
