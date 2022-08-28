@@ -62,9 +62,9 @@ class _SocialViewsState extends State<SocialViews> {
                 const SizedBox(
                   height: 15,
                 ),
-                Container(
+                const SizedBox(
                     width: 200,
-                    child: const Text(
+                    child: Text(
                       "Arkadaşlarının neler yaptığını hızlıca öğren !",
                       style: TextStyle(color: Colors.grey, fontSize: 16),
                     )),
@@ -134,7 +134,7 @@ class _SocialViewsState extends State<SocialViews> {
                     const SizedBox(
                       height: 20,
                     ),
-                    Container(
+                    SizedBox(
                       width: MediaQuery.of(context).size.width,
                       child: const Text(
                         "@umutocakcom ve @yazilimoji sayfalarımı takip eder misin ?",
