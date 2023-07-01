@@ -1,6 +1,4 @@
 import 'package:flutter/material.dart';
-import 'package:flutter/src/foundation/key.dart';
-import 'package:flutter/src/widgets/framework.dart';
 
 class FinanceHomeView extends StatelessWidget {
   const FinanceHomeView({Key? key}) : super(key: key);
@@ -19,7 +17,7 @@ class FinanceHomeView extends StatelessWidget {
                 Column(
                   crossAxisAlignment: CrossAxisAlignment.start,
                   children: [
-                    Text('Good morning', style: Theme.of(context).textTheme.bodyText1!.copyWith(color: Colors.grey),),
+                    Text('Good morning', style: Theme.of(context).textTheme.bodyLarge!.copyWith(color: Colors.grey),),
                     const SizedBox(height: 10,),
                     Text('Umut Ocak', style: Theme.of(context).textTheme.bodyMedium!.copyWith(fontWeight: FontWeight.bold),)
                   ],
@@ -62,8 +60,8 @@ class FinanceHomeView extends StatelessWidget {
                       child: Row(
                         mainAxisAlignment: MainAxisAlignment.spaceAround,
                         children: [
-                          Text('Umut Ocak', style: Theme.of(context).textTheme.headline6!.copyWith(fontWeight: FontWeight.bold),),
-                          Text('641', style: Theme.of(context).textTheme.bodyText1!.copyWith(fontWeight: FontWeight.bold),)
+                          Text('Umut Ocak', style: Theme.of(context).textTheme.titleLarge!.copyWith(fontWeight: FontWeight.bold),),
+                          Text('641', style: Theme.of(context).textTheme.bodyLarge!.copyWith(fontWeight: FontWeight.bold),)
                         ],
                       ),
                     )
@@ -86,17 +84,17 @@ class FinanceHomeView extends StatelessWidget {
                     Column(
                       crossAxisAlignment: CrossAxisAlignment.start,
                       children: [
-                        Text('Num', style: Theme.of(context).textTheme.bodyText1!.copyWith(color: Colors.grey),),
+                        Text('Num', style: Theme.of(context).textTheme.bodyLarge!.copyWith(color: Colors.grey),),
                         const SizedBox(height: 5,),
-                        Text('**** **** 7223', style: Theme.of(context).textTheme.bodyText1!.copyWith(color: Colors.white))
+                        Text('**** **** 7223', style: Theme.of(context).textTheme.bodyLarge!.copyWith(color: Colors.white))
                       ],
                     ),
                     Column(
                       crossAxisAlignment: CrossAxisAlignment.start,
                       children: [
-                        Text('Exp', style: Theme.of(context).textTheme.bodyText1!.copyWith(color: Colors.grey),),
+                        Text('Exp', style: Theme.of(context).textTheme.bodyLarge!.copyWith(color: Colors.grey),),
                         const SizedBox(height: 5,),
-                        Text('07/25', style: Theme.of(context).textTheme.bodyText1!.copyWith(color: Colors.white))
+                        Text('07/25', style: Theme.of(context).textTheme.bodyLarge!.copyWith(color: Colors.white))
                       ],
                     )
                   ],

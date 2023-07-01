@@ -41,8 +41,7 @@ class _NotFoundViewState extends State<NotFoundView> {
               onPressed: () {},
               child: const Text("Yeniden Ara", style: TextStyle(fontSize: 18),),
               style: OutlinedButton.styleFrom(
-                primary: const Color(0xff7FB5FF),
-                side: const BorderSide(color: Colors.transparent),
+                foregroundColor: const Color(0xff7FB5FF), side: const BorderSide(color: Colors.transparent),
               ),
             ),
           )

@@ -85,8 +85,7 @@ class _MailBoxViewState extends State<MailBoxView> {
                           size: 15,
                         ),
                         style: ElevatedButton.styleFrom(
-                          shadowColor: Colors.transparent,
-                          primary: const Color(0xff1259D0),
+                          shadowColor: Colors.transparent, backgroundColor: const Color(0xff1259D0),
                         ),
                       ),
                     ),
@@ -109,8 +108,7 @@ class _MailBoxViewState extends State<MailBoxView> {
                           color: Colors.grey,
                         ),
                         style: ElevatedButton.styleFrom(
-                          shadowColor: Colors.transparent,
-                          primary: const Color(0xffF8FAFB),
+                          shadowColor: Colors.transparent, backgroundColor: const Color(0xffF8FAFB),
                         ),
                       ),
                     ),
@@ -133,8 +131,7 @@ class _MailBoxViewState extends State<MailBoxView> {
                           color: Colors.grey,
                         ),
                         style: ElevatedButton.styleFrom(
-                          shadowColor: Colors.transparent,
-                          primary: const Color(0xffF8FAFB),
+                          shadowColor: Colors.transparent, backgroundColor: const Color(0xffF8FAFB),
                         ),
                       ),
                     ),
@@ -157,8 +154,7 @@ class _MailBoxViewState extends State<MailBoxView> {
                           color: Colors.grey,
                         ),
                         style: ElevatedButton.styleFrom(
-                          shadowColor: Colors.transparent,
-                          primary: const Color(0xffF8FAFB),
+                          shadowColor: Colors.transparent, backgroundColor: const Color(0xffF8FAFB),
                         ),
                       ),
                     )

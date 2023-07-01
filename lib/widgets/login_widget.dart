@@ -41,7 +41,7 @@ class _LoginWidgetState extends State<LoginWidget> {
                     },
                     child: const Text('Login'),
                     style: ElevatedButton.styleFrom(
-                      primary: const Color(0xff1C6DD0),
+                      backgroundColor: const Color(0xff1C6DD0),
                       shadowColor: Colors.transparent,
                       shape: RoundedRectangleBorder(
                         borderRadius: BorderRadius.circular(7),
