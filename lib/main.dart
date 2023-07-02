@@ -4,6 +4,7 @@ import 'package:flutter/material.dart';
 import 'package:flutterdesign/views/cargo_view.dart';
 import 'package:flutterdesign/views/drinkStore_view.dart';
 import 'package:flutterdesign/views/finance_home_view.dart';
+import 'package:flutterdesign/views/get_started_view.dart';
 import 'package:flutterdesign/views/login_view.dart';
 import 'package:flutterdesign/views/mailBox_view.dart';
 import 'package:flutterdesign/views/notification_view.dart';
@@ -32,7 +33,7 @@ class MyApp extends StatelessWidget {
       title: 'Flutter Design Example',
       debugShowCheckedModeBanner: false,
       theme: ThemeData(primarySwatch: Colors.blue),
-      home: const SubView(),
+      home: const GetStartedView(),
     );
   }
 }

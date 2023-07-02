@@ -14,12 +14,15 @@ class _SubViewState extends State<SubView> {
       backgroundColor: const Color(0xff111214),
       appBar: PreferredSize(
         preferredSize: const Size.fromHeight(40),
-        child: AppBar(
-          backgroundColor: Colors.transparent,
-          title: const Text("Sub list", style: TextStyle(color: Colors.white, fontWeight: FontWeight.w600)),
-          centerTitle: false,
-          elevation: 0,
-          actions: [IconButton(icon: const Icon(Icons.notifications, color: Colors.white), onPressed: () => print("Add"))],
+        child: Container(
+          decoration: const BoxDecoration(border: Border(bottom: BorderSide(width: 0.5, color: Color(0xff18191B)))),
+          child: AppBar(
+            backgroundColor: Colors.transparent,
+            title: const Text("Suboloji", style: TextStyle(color: Colors.white, fontWeight: FontWeight.w600)),
+            centerTitle: false,
+            elevation: 0,
+            actions: [IconButton(icon: const Icon(Icons.notifications, color: Colors.white), onPressed: () => print("Add"))],
+          ),
         ),
       ),
       body: DefaultTabController(
@@ -93,6 +96,7 @@ class _SubViewState extends State<SubView> {
       itemBuilder: (context, index) {
         return Column(
           children: [
+            const SizedBox(height: 15,),
             ListTile(
               leading: Image.network(
                   "https://static.vecteezy.com/system/resources/previews/018/930/750/non_2x/spotify-app-logo-spotify-icon-transparent-free-png.png"),
