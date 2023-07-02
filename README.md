@@ -15,3 +15,4 @@ In this project I am sharing design examples with Flutter. This project is focus
  - Notification View
  - Login View
  - Sub View
+ - Get Started View
